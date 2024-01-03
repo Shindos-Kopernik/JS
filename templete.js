@@ -39,3 +39,13 @@ console.log(Boolean(undefined));
 console.log(Boolean(null));
 console.log(Boolean(Number('Vasya')));
 console.log(Boolean(NaN));
+// if and else
+const money = 10;
+
+if (money > 50) {
+  console.log('Может купить наш товар')
+} else if (money < 50){
+  console.log('Может купить только дешевый товар')
+} else {
+  console.log('Не хватает баланса')
+}
